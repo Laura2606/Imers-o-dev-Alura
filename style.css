@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto","Helvetica", "Verdana", sans-serif, monospace;
+    text-align: center;
+    background-image: url("https://img.myloview.com.br/posters/film-reel-with-film-strips-isolated-on-blue-background-cinema-background-with-place-for-your-text-3d-movie-art-template-for-cinema-festival-ticket-advertising-brochure-concept-of-film-industry-700-190420914.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    ;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .page-title {
+    color: white;
+    margin: 0 ;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+width: 100%;
+fonte size: 36px;
+fonte style: "Arial", "Helvetica" 
+    
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin:0% ;
+    position: relative;
+    top: 20px;
+   transform: translateY(-50%);
+   text-align: center;
+    width: 100%;
+}
+
+  
+  .container_todosFilmes {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around; 
+   padding-top: 5%; 
+  }
+  .container_filme{
+   padding: 3%;
+   display: block;
+   max-width: 30%;
+  }
+
+  .filme-titulo {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  img {
+    max-height: 250px;
+    max-width: 100%;
+    padding:
+      
+  }
+  
+  img:hover {
+   transform: scale(1.2);
+  }
+  
+  p { 
+    color: white ;
+  }
